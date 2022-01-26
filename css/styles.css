@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins&display=swap');
+/* font-family: 'Mochiy Pop P One', sans-serif;   for H */
+/* font-family: 'Open Sans', sans-serif;  for p */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgb(238, 234, 234);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+.icon{
+    padding: 5px;
+    font-size: 14px;
+    background-color: orange;
+    border-radius: 50%;
+    width: 26px;
+    margin: 5px;
+}
+.black {
+    background-color: black;
+  }
+.grid{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 5px 0;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    width: 80%;
+    margin: 23px auto;
+    color: gray;
+
+}
+span{
+    color: orange;
+    padding: 13px 5px 0 0;
+}
+button{
+    font-size: 12px;
+    margin: 40px 0;
+    padding: 15px 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #383a3f;
+}
+.level{
+    background-color: #e4e4e4;
+}
+.h-primary{
+    font-size: 1.4rem;
+}
+.p-primary{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 3px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.big-p{
+    font-family: 'Outfit', sans-serif; 
+    width: 70%;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.span-primary{
+    font-family: 'Outfit', sans-serif; 
+    float: right;
+    color: black;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+}
+.Available{
+    color: rgb(54, 175, 54);
+}
+
+/* Left column */
+.leftColumn{
+    background-color: #ffffff;
+}
+.col-left{
+    margin: 0 35px 0 0;
+    padding: 0;
+    width: 20%;
+}
+
+.img-name img {
+    width: 130px;
+    margin: 50px 0 30px;
+    border-radius: 50%;
+}
+/* personal-info */
+#personal-info{
+    text-align: left;
+    margin: 20px 10px;
+}
+#personal-info p{
+    color: #393E46;
+    background-color: orange;
+}
+/* Languages */
+#Languages{
+    text-align: left;
+    margin: 30px 25px;
+    text-align: left;
+}
+#Languages p{
+    padding-left: 0;
+}
+
+.level-English{
+    height: 3px;
+    border-radius: 20px;
+    background-color: orange;
+    width: 70%;
+}
+.level-Urdu{
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-Punjabi{
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+/* Skills */
+#Skills{
+    text-align: left;
+    margin: 30px 25px;
+    text-align: left;
+}
+.level-html{
+    width: 65%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-css{
+    width: 55%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-c-cpp{
+    width: 60%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-JavaScript{
+    width: 50%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-React{
+    width: 30%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.level-Python{
+    width: 50%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: orange;
+}
+/* col-middle */
+.col-middle{
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0 30px 50px 0;
+}
+/* about */
+.font{
+    height: 100px;
+}
+#about{
+    padding: 15px 30px;
+    text-align: left;
+    background-color: #ffffff;
+}
+#about p{
+    width: 70%;
+    margin: 20px 0;
+    font-size: 17px;
+}
+/* services */
+#services{
+    padding: 20px 0 0;
+    margin: 100px 0;
+}#services img{
+    margin: 30px;
+    width: 80px;
+    height: 70px;
+}
+.services-info{
+    margin: 50px;
+}
+.services-layout{
+    margin: 60px 0;
+}
+.layout{
+    width: 30%;
+    background-color: #ffffff;
+    margin: 5px 10px;
+    /* padding: 30px 0; */
+    padding: 30px 20px;
+}
+.layout p{
+    margin: 0 2px;
+}
+
+/* education */
+#education{
+    padding: 20px 0 0;
+    margin: 30px 0 70px;
+}
+.education-info{
+    margin: 50px 0 70px;
+}
+.education-detail{
+    padding: 50px 0 0;
+    margin: 20px 0 40px;
+    background-color: #fff;
+}
+.schooling{
+    background-color: #fff;
+    display: flex;
+}
+.schooling-p-h{
+    padding: 40px;
+    width: 60%;
+    text-align: left;
+}
+.schooling-p-h span{
+    font-size: 9px;
+    margin: 0 16px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+.schooling p {
+    font-size: 16px;
+    padding: 0;
+}
+.schooling-detail{
+    width: 100%;
+    padding: 40px;
+    text-align: left;
+}
+/* contact */
+#contact{
+    padding: 40px 0 0;
+    margin: 50px 0;
+}
+.contact span{
+    color: orange;
+}
+.content-h{
+    text-align: center;
+    margin: 30px 0;
+}
+.contact-info{
+    background-color: #fff;
+    padding: 40px;
+    margin: 50px 0;
+}
+.contact-grid{
+    margin: 60px 0 0;
+    text-align: left;
+}
+.contact-grid p{
+    font-size: 15px;
+}
+.personal-info {
+    margin: 10px 0;
+}
+.contact-grid hr{
+    margin-left: 0;
+}
+.icon-link{
+    margin: 5px 0 8px 28px;
+    color: black;
+}
+/* col-last */
+.col-last{
+    position: fixed;
+    right: 6px;
+    padding: 0;
+}
+.nav-bar{
+    background-color: #fff;
+    padding: 170px 0 80px;
+}
+#switch{
+    display: block;
+    background-color: #393E46;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto 120px;
+}
+.nav-icon{
+    margin: 8px 0;
+    padding: 5px;
+    font-size: 18px;
+    width: 37px;
+    height:  33px;
+}
+.nav-bar ul{
+    padding: 0;
+}
+.nav-bar a{
+    color: #383a3f;
+}
+.nav-bar li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+footer{
+    height: 80px;
+    background-color: #fff;
+}
+footer h2{
+    padding: 25px;
+}
